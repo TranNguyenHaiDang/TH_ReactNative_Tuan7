@@ -1,0 +1,437 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "email": "an@gmail.com",
+      "password": "$2a$10$pDEa13HpLHUEnHXVKrzu4.wsRemAMTMCSW2j96iRhx2EhjKk/v0P2"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "email": "binh@gmail.com",
+      "password": "$2a$10$pDEa13HpLHUEnHXVKrzu4.wsRemAMTMCSW2j96iRhx2EhjKk/v0P2"
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn Châu",
+      "email": "chau@gmail.com",
+      "password": "$2a$10$pDEa13HpLHUEnHXVKrzu4.wsRemAMTMCSW2j96iRhx2EhjKk/v0P2"
+    },
+    {
+      "id": 4,
+      "name": "Tài khoản Test",
+      "email": "test@gmail.com",
+      "password": "$2a$10$pDEa13HpLHUEnHXVKrzu4.wsRemAMTMCSW2j96iRhx2EhjKk/v0P2"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "category": "Văn học",
+      "price": 45000,
+      "image": "https://picsum.photos/seed/book1/300/450",
+      "description": "Dế Mèn Phiêu Lưu Ký của Tô Hoài, một cuốn sách thuộc thể loại văn học kinh điển được nhiều bạn đọc yêu thích qua nhiều thế hệ."
+    },
+    {
+      "id": 2,
+      "title": "Số Đỏ",
+      "author": "Vũ Trọng Phụng",
+      "category": "Văn học",
+      "price": 65000,
+      "image": "https://picsum.photos/seed/book2/300/450",
+      "description": "Kiệt tác văn học hiện thực trào phúng phản ánh xã hội thị thành Việt Nam thời kỳ Âu hóa qua nhân vật Xuân Tóc Đỏ."
+    },
+    {
+      "id": 3,
+      "title": "Tắt Đèn",
+      "author": "Ngô Tất Tố",
+      "category": "Văn học",
+      "price": 55000,
+      "image": "https://picsum.photos/seed/book3/300/450",
+      "description": "Bức tranh hiện thực chân thực, sống động và xúc động về cuộc sống cùng cực của người nông dân Việt Nam trước Cách mạng tháng Tám qua hình tượng chị Dậu."
+    },
+    {
+      "id": 4,
+      "title": "Vợ Nhặt",
+      "author": "Kim Lân",
+      "category": "Văn học",
+      "price": 40000,
+      "image": "https://picsum.photos/seed/book4/300/450",
+      "description": "Một truyện ngắn xuất sắc về nạn đói năm 1945 nhưng lấp lánh tình người, niềm tin và khát vọng sống mãnh liệt của con người nghèo khổ."
+    },
+    {
+      "id": 5,
+      "title": "Mắt Biếc",
+      "author": "Nguyễn Nhật Ánh",
+      "category": "Văn học",
+      "price": 90000,
+      "image": "https://picsum.photos/seed/book5/300/450",
+      "description": "Câu chuyện tình đơn phương đầy trăn trở, nuối tiếc của chàng trai Ngạn dành cho cô bạn thanh mai trúc mã Hà Lan mang đôi mắt biếc."
+    },
+    {
+      "id": 6,
+      "title": "Đắc Nhân Tâm",
+      "author": "Dale Carnegie",
+      "category": "Kỹ năng",
+      "price": 86000,
+      "image": "https://picsum.photos/seed/book6/300/450",
+      "description": "Cuốn sách nghệ thuật thu phục lòng người kinh điển nhất mọi thời đại, hướng dẫn các nguyên tắc giao tiếp và đối nhân xử thế chuẩn mực."
+    },
+    {
+      "id": 7,
+      "title": "Thói Quen Nguyên Tử",
+      "author": "James Clear",
+      "category": "Kỹ năng",
+      "price": 120000,
+      "image": "https://picsum.photos/seed/book7/300/450",
+      "description": "Phương pháp thay đổi thói quen nhỏ để tạo nên sự bứt phá phi thường trong cuộc sống và sự nghiệp dựa trên khoa học hành vi."
+    },
+    {
+      "id": 8,
+      "title": "Tư Duy Nhanh Và Chậm",
+      "author": "Daniel Kahneman",
+      "category": "Kỹ năng",
+      "price": 165000,
+      "image": "https://picsum.photos/seed/book8/300/450",
+      "description": "Tác phẩm đạt giải Nobel kinh tế giải mã hai hệ thống tư duy chi phối mọi quyết định và hành vi của con người trong cuộc sống."
+    },
+    {
+      "id": 9,
+      "title": "Sức Mạnh Của Thói Quen",
+      "author": "Charles Duhigg",
+      "category": "Kỹ năng",
+      "price": 110000,
+      "image": "https://picsum.photos/seed/book9/300/450",
+      "description": "Phân tích cơ chế vòng lặp thói quen gồm Gợi ý - Phần thưởng - Hành động và cách thức làm chủ thói quen của bản thân và tổ chức."
+    },
+    {
+      "id": 10,
+      "title": "Nghĩ Giàu Làm Giàu",
+      "author": "Napoleon Hill",
+      "category": "Kỹ năng",
+      "price": 95000,
+      "image": "https://picsum.photos/seed/book10/300/450",
+      "description": "13 nguyên tắc vàng làm giàu và thành công dựa trên nghiên cứu hơn 500 nhân vật kiệt xuất nhất nước Mỹ."
+    },
+    {
+      "id": 11,
+      "title": "Nhà Đầu Tư Thông Minh",
+      "author": "Benjamin Graham",
+      "category": "Kinh tế",
+      "price": 185000,
+      "image": "https://picsum.photos/seed/book11/300/450",
+      "description": "Cuốn cẩm nang đầu tư giá trị kinh điển mà Warren Buffett luôn coi là cuốn sách hay nhất từng viết về đầu tư tài chính."
+    },
+    {
+      "id": 12,
+      "title": "Cha Giàu Cha Nghèo",
+      "author": "Robert Kiyosaki",
+      "category": "Kinh tế",
+      "price": 115000,
+      "image": "https://picsum.photos/seed/book12/300/450",
+      "description": "Cuốn sách làm thay đổi tư duy tài chính của hàng triệu người, phân biệt rõ ràng giữa tài sản và tiêu sản để đạt tự do tài chính."
+    },
+    {
+      "id": 13,
+      "title": "Kinh Tế Học Hài Hước",
+      "author": "Steven D. Levitt & Stephen J. Dubner",
+      "category": "Kinh tế",
+      "price": 105000,
+      "image": "https://picsum.photos/seed/book13/300/450",
+      "description": "Khám phá mặt khuất của cuộc sống thường nhật qua lăng kính kinh tế học độc đáo, hài hước và đầy bất ngờ."
+    },
+    {
+      "id": 14,
+      "title": "Từ Tốt Đến Vĩ Đại",
+      "author": "Jim Collins",
+      "category": "Kinh tế",
+      "price": 140000,
+      "image": "https://picsum.photos/seed/book14/300/450",
+      "description": "Nghiên cứu sâu rộng về các yếu tố giúp những công ty bình thường vươn lên trở thành những tổ chức vĩ đại trường tồn."
+    },
+    {
+      "id": 15,
+      "title": "Khởi Nghiệp Tinh Gọn",
+      "author": "Eric Ries",
+      "category": "Kinh tế",
+      "price": 125000,
+      "image": "https://picsum.photos/seed/book15/300/450",
+      "description": "Mô hình xây dựng sản phẩm mẫu tối thiểu (MVP), vòng lặp phản hồi Xây dựng - Đo lường - Học hỏi giúp startup thành công."
+    },
+    {
+      "id": 16,
+      "title": "Hoàng Tử Bé",
+      "author": "Antoine de Saint-Exupéry",
+      "category": "Thiếu nhi",
+      "price": 60000,
+      "image": "https://picsum.photos/seed/book16/300/450",
+      "description": "Tác phẩm văn học thiếu nhi bất hủ mang triết lý sâu sắc: Người ta chỉ thấy rõ bằng trái tim, cái cốt lõi thì vô hình trong mắt trần."
+    },
+    {
+      "id": 17,
+      "title": "Chuyện Con Mèo Dạy Hải Âu Bay",
+      "author": "Luis Sepúlveda",
+      "category": "Thiếu nhi",
+      "price": 52000,
+      "image": "https://picsum.photos/seed/book17/300/450",
+      "description": "Câu chuyện ấm áp về lời hứa danh dự của chú mèo mập ú Zorba và tình yêu thương dành cho một sinh vật khác biệt."
+    },
+    {
+      "id": 18,
+      "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+      "author": "Nguyễn Nhật Ánh",
+      "category": "Thiếu nhi",
+      "price": 105000,
+      "image": "https://picsum.photos/seed/book18/300/450",
+      "description": "Bản tình ca về tuổi thơ với những trò nghịch ngợm, tình anh em gắn bó và những rung động đầu đời trong sáng ở làng quê."
+    },
+    {
+      "id": 19,
+      "title": "Alice Ở Xứ Sở Thần Tiên",
+      "author": "Lewis Carroll",
+      "category": "Thiếu nhi",
+      "price": 72000,
+      "image": "https://picsum.photos/seed/book19/300/450",
+      "description": "Hành trình phiêu lưu kỳ thú của cô bé Alice rơi vào hang thỏ dẫn đến một thế giới kỳ lạ với đầy các sinh vật biết nói."
+    },
+    {
+      "id": 20,
+      "title": "Góc Sân Và Khoảng Trời",
+      "author": "Trần Đăng Khoa",
+      "category": "Thiếu nhi",
+      "price": 58000,
+      "image": "https://picsum.photos/seed/book20/300/450",
+      "description": "Tập thơ tuổi thơ nổi tiếng của thần đồng thơ Trần Đăng Khoa, tái hiện bức tranh đồng quê Việt Nam yên bình và dung dị."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 2,
+      "comment": "Hơi khó đọc với mình.",
+      "createdAt": "2026-10-03T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "bookId": 1,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Tuyệt vời, mình đọc 2 lần rồi.",
+      "createdAt": "2026-10-02T09:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "bookId": 2,
+      "userId": 3,
+      "userName": "Lê Văn Châu",
+      "rating": 4,
+      "comment": "Tác phẩm trào phúng sắc sảo, đáng đọc.",
+      "createdAt": "2026-10-04T10:15:00.000Z"
+    },
+    {
+      "id": 4,
+      "bookId": 3,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "Đọc thương chị Dậu vô cùng, ngòi bút Ngô Tất Tố rất chân thực.",
+      "createdAt": "2026-10-05T08:30:00.000Z"
+    },
+    {
+      "id": 5,
+      "bookId": 3,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 4,
+      "comment": "Tác phẩm kinh điển thời kỳ hiện thực phê phán.",
+      "createdAt": "2026-10-06T14:20:00.000Z"
+    },
+    {
+      "id": 6,
+      "bookId": 5,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Buồn đến thắt lòng, tình cảm của Ngạn thật trong sáng.",
+      "createdAt": "2026-10-07T16:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "bookId": 6,
+      "userId": 3,
+      "userName": "Lê Văn Châu",
+      "rating": 5,
+      "comment": "Sách rất hay, ai cũng nên đọc ít nhất một lần trong đời.",
+      "createdAt": "2026-10-08T11:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "bookId": 6,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 4,
+      "comment": "Các nguyên tắc đối nhân xử thế thực tiễn và dễ áp dụng.",
+      "createdAt": "2026-10-09T09:45:00.000Z"
+    },
+    {
+      "id": 9,
+      "bookId": 7,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "Quy tắc 2 phút và xếp chồng thói quen rất hữu ích với tôi.",
+      "createdAt": "2026-10-10T07:15:00.000Z"
+    },
+    {
+      "id": 10,
+      "bookId": 7,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Đọc xong thấy bản thân có thêm nhiều động lực cải thiện từng ngày.",
+      "createdAt": "2026-10-11T13:10:00.000Z"
+    },
+    {
+      "id": 11,
+      "bookId": 8,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Sách dày nhưng rất đáng giá, mở mang nhiều góc nhìn về não bộ.",
+      "createdAt": "2026-10-12T15:30:00.000Z"
+    },
+    {
+      "id": 12,
+      "bookId": 8,
+      "userId": 3,
+      "userName": "Lê Văn Châu",
+      "rating": 4,
+      "comment": "Kiến thức chuyên sâu, cần đọc chậm và suy ngẫm kỹ.",
+      "createdAt": "2026-10-13T10:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "bookId": 11,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "Đầu tư giá trị là nền tảng bền vững, cảm ơn tác giả.",
+      "createdAt": "2026-10-14T08:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "bookId": 11,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 4,
+      "comment": "Hơi nhiều số liệu nhưng rất bổ ích cho người muốn tìm hiểu thị trường.",
+      "createdAt": "2026-10-14T11:30:00.000Z"
+    },
+    {
+      "id": 15,
+      "bookId": 11,
+      "userId": 3,
+      "userName": "Lê Văn Châu",
+      "rating": 5,
+      "comment": "Sách gối đầu giường của mọi nhà đầu tư.",
+      "createdAt": "2026-10-15T14:45:00.000Z"
+    },
+    {
+      "id": 16,
+      "bookId": 12,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 4,
+      "comment": "Giúp thay đổi hoàn toàn cách nhìn về dòng tiền và tài chính cá nhân.",
+      "createdAt": "2026-10-15T16:20:00.000Z"
+    },
+    {
+      "id": 17,
+      "bookId": 12,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "Rất đáng đọc, đặc biệt là các bạn trẻ mới ra trường.",
+      "createdAt": "2026-10-16T09:10:00.000Z"
+    },
+    {
+      "id": 18,
+      "bookId": 14,
+      "userId": 3,
+      "userName": "Lê Văn Châu",
+      "rating": 5,
+      "comment": "Phân tích doanh nghiệp xuất sắc, lãnh đạo cấp độ 5 rất ấn tượng.",
+      "createdAt": "2026-10-16T15:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "bookId": 16,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Những điều cốt lõi thì vô hình trong mắt trần. Tác phẩm tuyệt tác!",
+      "createdAt": "2026-10-17T08:45:00.000Z"
+    },
+    {
+      "id": 20,
+      "bookId": 16,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "Cuốn sách dành cho cả trẻ em lẫn người lớn muốn tìm lại tâm hồn mình.",
+      "createdAt": "2026-10-17T11:20:00.000Z"
+    },
+    {
+      "id": 21,
+      "bookId": 17,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "Chỉ những kẻ dám mới có thể bay. Câu chuyện đầy xúc động và ý nghĩa.",
+      "createdAt": "2026-10-18T10:00:00.000Z"
+    },
+    {
+      "id": 22,
+      "bookId": 18,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 4,
+      "comment": "Đọc lại thấy nhớ tuổi thơ ở quê hương da diết.",
+      "createdAt": "2026-10-18T14:30:00.000Z"
+    },
+    {
+      "id": 23,
+      "bookId": 19,
+      "userId": 3,
+      "userName": "Lê Văn Châu",
+      "rating": 4,
+      "comment": "Thế giới tưởng tượng vô cùng phong phú và hài hước.",
+      "createdAt": "2026-10-19T09:00:00.000Z"
+    },
+    {
+      "id": 24,
+      "bookId": 20,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "Hạt gạo làng ta có bão tháng bảy có mưa tháng ba... Rất thân thương.",
+      "createdAt": "2026-10-19T13:40:00.000Z"
+    },
+    {
+      "id": 25,
+      "bookId": 4,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Một kiệt tác ngắn chứa đựng nỗi đau và tình người sâu lắng.",
+      "createdAt": "2026-10-19T16:15:00.000Z"
+    }
+  ]
+}
